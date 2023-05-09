@@ -1,5 +1,4 @@
-require_relative 'item'
-class Book < Item
+class Book 
   attr_accessor :cover_state, :publisher, :published_date
 
   def initialize(id, genre, author, source, label, cover_state, publisher,
@@ -16,3 +15,4 @@ class Book < Item
     false
   end
 end
+# rubocop:enable Metrics/ParameterLists
