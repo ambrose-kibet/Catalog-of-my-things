@@ -7,11 +7,4 @@ class Book
     @cover_state = cover_state
     @publisher = publisher
   end
-
-  def can_be_archived?
-    return true if @cover_state == 'bad'
-    return super if defined?(super)
-
-    false
-  end
 end
