@@ -1,15 +1,15 @@
 class Source
-attr_reader :id, :items
-attr_accessor :name,
+  attr_reader :id, :items
+  attr_accessor :name
 
-def initialize(name)
-@id=Random.rand(1..1000)
-@name=name
-@items=[]
-end
+  def initialize(name)
+    @id = Random.rand(1..1000)
+    @name = name
+    @items = []
+  end
 
-def add_item(item)
-  item.source=self
-@items<<item unless @items.include? item
-end
+  def add_item(item)
+    item.source = self
+    @items << item unless @items.include? item
+  end
 end
