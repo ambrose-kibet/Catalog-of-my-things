@@ -1,4 +1,3 @@
-
 class Game < Item
   attr_reader :multiplayer, :last_played_at
 
@@ -7,6 +6,4 @@ class Game < Item
     @last_played_at = last_played_at
     super(id, genre, author, source, label, published_date)
   end
-
-
 end
