@@ -9,6 +9,7 @@ def initialize(name)
 end
 
 def add_item(item)
+  item.source=self
 @items<<item unless @items.include? item
 end
 end
