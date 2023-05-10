@@ -8,4 +8,8 @@ class item
     @published_date = published_date
     @archived = archived
   end
+
+  def moved_to_archieved
+
+  end
 end
