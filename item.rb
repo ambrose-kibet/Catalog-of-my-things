@@ -12,4 +12,10 @@ class item
   def moved_to_archieved
 
   end
+
+  private
+
+  def can_be_archived?
+
+  end
 end
