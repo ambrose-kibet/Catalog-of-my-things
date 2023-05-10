@@ -7,7 +7,7 @@ class MusicAlbum
   end
 
   private
-  
+
   def can_be_achived?
     return true if super && on_spotify
   end
