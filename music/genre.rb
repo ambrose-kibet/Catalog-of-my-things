@@ -1,13 +1,18 @@
-class Genre
-  attr_reader :id, :name
+require './item'
+
+class Genre < Item
+  attr_reader :id
+  attr_accessor :name
 
   def initialize(id, _name)
+    super()
     @id = id
     @name = name
     @items = []
   end
 
   def add_item(item)
-    @items << item
+    @items << item unless @items.include?(item)
+    item.genre = self
   end
 end
