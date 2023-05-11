@@ -29,10 +29,8 @@ end
 describe Item do
   it 'it should add an item to the label' do
     label = Label.new('The Great Gastby', 'blue')
-    book = Book.new('The Great Gastby', "bad", '2012-04-03')
+    book = Book.new('The Great Gastby', 'bad', '2012-04-03')
     label.add_item(book)
     expect(label.items).to include(book)
   end
 end
-
-

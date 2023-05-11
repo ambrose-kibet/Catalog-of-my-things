@@ -4,7 +4,7 @@ class Book < Item
   attr_accessor :publisher, :cover_state
   attr_reader :publish_date
 
-  def initialize(publisher, cover_state, published_date)
+  def initialize(publisher, cover_state, _published_date)
     super()
     @publisher = publisher
     @cover_state = cover_state
