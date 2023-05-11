@@ -9,10 +9,8 @@ CREATE TABLE music_album(
   publish_date DATE,
   archived BOOLEAN,
   on_spotify BOOLEAN,
-  item_id INT NOT NULL,
 
-  CONSTRAINT fk_item
-      FOREIGN KEY (item_id)
-      REFERENCES item (id)
-      ON DELETE CASCADE
+  CONSTRAINT fk_genre
+      FOREIGN KEY (genre_id)
+      REFERENCES genre (id)
 );
