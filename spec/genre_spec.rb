@@ -1,12 +1,12 @@
 require './music/genre'
 
-describe "Genre" do
+describe 'Genre' do
   before(:all) do
-    @genre = Genre.new(24,'Jake')
+    @genre = Genre.new(24, 'Jake')
     @items = []
   end
 
-  describe "initialize" do
+  describe 'initialize' do
     it 'initializes a genre with an id and name' do
       expect(@genre).to be_an_instance_of Genre
       expect(@genre.id).to eq(24)
