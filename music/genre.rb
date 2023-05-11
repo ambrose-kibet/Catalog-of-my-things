@@ -5,6 +5,7 @@ class Genre < Item
   attr_accessor :name
 
   def initialize(id, _name)
+    super()
     @id = id
     @name = name
     @items = []
