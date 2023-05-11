@@ -19,6 +19,14 @@ class Item
   end
 
   def moved_to_archieved
-    @archived = true if can_be_archived?
+    if can_be_archived?
+      @archived = true
+      puts 'Item has been archieved'
+    else
+      puts 'Item has not been moved to archieved'
+    end
+    @archived = can_be_archived?
   end
+
+  private :can_be_archived?
 end
