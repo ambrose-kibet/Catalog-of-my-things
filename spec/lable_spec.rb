@@ -1,4 +1,4 @@
-require_relative '../label'
+require_relative '../classes/label'
 require_relative '../item'
 
 describe Label do
