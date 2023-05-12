@@ -10,10 +10,10 @@ class Catalog
   include Write
 
   def initialize
-    @items = read_item('items.json')
-    @genres = read_item('genres.json')
-    @labels = read_item('labels.json')
-    @authors = read_item('authors.json')
+    @items = read_item('./data/items.json')
+    @genres = read_item('./data/genres.json')
+    @labels = read_item('./data/labels.json')
+    @authors = read_item('./data/authors.json')
   end
 
   def add_item(item)
