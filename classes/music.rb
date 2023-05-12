@@ -16,7 +16,6 @@ class MusicAlbum < Item
       publish_date: @publish_date,
       genre: @genre,
       author: @author,
-      source: @source,
       label: @label,
       archived: @archived }
   end
