@@ -6,7 +6,6 @@ require_relative './book'
 require_relative './game'
 require_relative './genre'
 
-
 class Catalog
   include Write
 
