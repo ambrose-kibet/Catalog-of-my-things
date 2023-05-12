@@ -14,6 +14,16 @@ CREATE TABLE game(
   archived BOOLEAN NOT NULL,
   author_id INT REFERENCES author(id),
   genre_id INT REFERENCES genre(id),
-  source_id INT REFERENCES source(id),
+  label_id INT REFERENCES label(id)
+);
+
+-- book
+CREATE TABLE book(
+  id SERIAL PRIMARY KEY,,
+  multiplayer BOOLEAN NOT NULL,
+  last_played DATE NOT NULL,
+  publish_date DATE NOT NULL,
+  archived BOOLEAN NOT NULL,
+  author_id INT REFERENCES author(id),
   label_id INT REFERENCES label(id)
 );
