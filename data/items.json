@@ -2,26 +2,35 @@
   {
     "class": "Game",
     "object_id": 60,
-    "id": 530,
+    "id": 13,
     "multiplayer": true,
     "publish_date": null,
-    "last_played_at": "2022-4-7",
-    "genre": "#<Genre:0x000002ee6319eae8>",
-    "author": "#<Author:0x000002ee6319ecc8>",
-    "label": "#<Label:0x000002ee6319e890>",
+    "last_played_at": "2022-4-30",
+    "genre": "#<Genre:0x0000020031dc9fc8>",
+    "author": "#<Author:0x0000020031dca1a8>",
+    "label": "#<Label:0x0000020031dc9d70>",
     "archived": false
-  }
-][
+  },
   {
-    "class": "Game",
-    "object_id": 60,
-    "id": 457,
-    "multiplayer": false,
-    "publish_date": null,
-    "last_played_at": "2023-6-9",
-    "genre": "#<Genre:0x000001f926185cd8>",
-    "author": "#<Author:0x000001f926185eb8>",
-    "label": "#<Label:0x000001f926185a80>",
+    "class": "Book",
+    "object_id": 140,
+    "id": 323,
+    "publisher": "longhorn",
+    "cover_state": "good",
+    "genre": "#<Genre:0x0000020031e11760>",
+    "author": "#<Author:0x0000020031e11850>",
+    "label": "#<Label:0x0000020031e115d0>",
+    "archived": false
+  },
+  {
+    "class": "Book",
+    "object_id": 220,
+    "id": 700,
+    "publisher": "sasasa",
+    "cover_state": "bad",
+    "genre": "#<Genre:0x0000020031e1a8b0>",
+    "author": "#<Author:0x0000020031e1a9a0>",
+    "label": "#<Label:0x0000020031e1a720>",
     "archived": false
   }
 ]

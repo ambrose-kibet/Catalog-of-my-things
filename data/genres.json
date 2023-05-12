@@ -4,27 +4,20 @@
     "object_id": 80,
     "id": 975,
     "name": "first shooter",
-    "items": [
-      "#<Game:0x000002ee6319ef70>"
-    ]
-  }
-][
-  {
-    "class": "Genre",
-    "object_id": 80,
-    "id": 975,
-    "name": "first shooter",
-    "items": [
-      "#<Game:0x000002ee6319ef70>"
-    ]
+    "items": ["#<Game:0x000002ee6319ef70>"]
   },
   {
     "class": "Genre",
-    "object_id": 80,
-    "id": 69,
+    "object_id": 160,
+    "id": 453,
+    "name": "kkkk",
+    "items": ["#<Book:0x0000020031e11a08>"]
+  },
+  {
+    "class": "Genre",
+    "object_id": 240,
+    "id": 330,
     "name": "adventure",
-    "items": [
-      "#<Game:0x000001f926186160>"
-    ]
+    "items": ["#<Book:0x0000020031e1ab08>"]
   }
 ]

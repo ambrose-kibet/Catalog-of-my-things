@@ -2,22 +2,31 @@
   {
     "class": "Author",
     "object_id": 120,
-    "id": 855,
-    "first_name": "kkk",
-    "last_name": "ghghg",
+    "id": 278,
+    "first_name": "tktkt",
+    "last_name": "fgfg",
     "items": [
-      "#<Game:0x000002ee6319ef70>"
+      "#<Game:0x0000020031dca450>"
     ]
-  }
-][
+  },
   {
     "class": "Author",
-    "object_id": 120,
-    "id": 122,
-    "first_name": "versati",
-    "last_name": "tommy",
+    "object_id": 200,
+    "id": 186,
+    "first_name": "sdsd",
+    "last_name": "sdsdsd",
     "items": [
-      "#<Game:0x000001f926186160>"
+      "#<Book:0x0000020031e11a08>"
+    ]
+  },
+  {
+    "class": "Author",
+    "object_id": 280,
+    "id": 513,
+    "first_name": "wewew",
+    "last_name": "sdsdsd",
+    "items": [
+      "#<Book:0x0000020031e1ab08>"
     ]
   }
 ]
