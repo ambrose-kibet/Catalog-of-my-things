@@ -1,4 +1,4 @@
-require_relative '../item'
+require_relative './item'
 require 'date'
 class Game < Item
   attr_accessor :multiplayer, :last_played_at
@@ -13,5 +13,18 @@ class Game < Item
 
   def can_be_archived?
     super && (Date.parse(@last_played_at).year < Date.today.year - 2)
+  end
+
+  def to_h
+    { class: self.class.name,
+      object_id: object_id,
+      id: @id,
+      multiplayer: @multiplayer,
+      publish_date: @publish_date,
+      last_played_at: @last_played_at,
+      genre: @genre,
+      author: @author,
+      label: @label,
+      archived: @archived }
   end
 end

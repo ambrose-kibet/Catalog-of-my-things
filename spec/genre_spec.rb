@@ -1,15 +1,14 @@
-require './music/genre'
+require_relative '../classes/genre'
 
 describe 'Genre' do
   before(:all) do
-    @genre = Genre.new(24, 'Jake')
+    @genre = Genre.new('Jake')
     @items = []
   end
 
   describe 'initialize' do
     it 'initializes a genre with an id and name' do
       expect(@genre).to be_an_instance_of Genre
-      expect(@genre.id).to eq(24)
       expect(@genre.instance_variable_get(:@items)).to eq([])
     end
   end
