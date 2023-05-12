@@ -6,7 +6,7 @@ def start
   app = App.new(catalog)
   loop do
     app.list_options
-    value=gets.chomp
+    value = gets.chomp
     case value
     when '1'
       app.handle_one

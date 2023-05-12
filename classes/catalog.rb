@@ -19,22 +19,22 @@ class Catalog
 
   def add_item(item)
     @items << item
-    write_to_file(@items,('./data/items.json'))
+    write_to_file(@items, './data/items.json')
   end
 
   def add_genre(genre)
     @genres << genre
-    write_to_file(@genres,('./data/genres.json'))
+    write_to_file(@genres, './data/genres.json')
   end
 
   def add_label(label)
     @labels << label
-    write_to_file(@labels,('./data/labels.json'))
+    write_to_file(@labels, './data/labels.json')
   end
 
   def add_author(author)
     @authors << author
-    write_to_file(@authors,('./data/authors.json'))
+    write_to_file(@authors, './data/authors.json')
   end
 
   def create_author(first_name, last_name)
@@ -83,10 +83,8 @@ class Catalog
     if games.empty?
       puts 'No games to display'
     else
-      @items.each do  |item|
-        if item['class'] == 'Game'
-          puts "id: #{item['id']} Multiplayer: #{item['multiplayer']} last played at :#{item['last_played_at']}"
-        end
+      @items.each do |item|
+        puts "id: #{item['id']} Multiplayer: #{item['multiplayer']} last played at :#{item['last_played_at']}" if item['class'] == 'Game'
       end
     end
   end
@@ -94,16 +92,16 @@ class Catalog
   def list_books
     @items = read_item('./data/items.json')
     books = @items.select { |item| item['class'] == 'Book' }
-   
+
     if books.empty?
       puts 'No books to display'
     else
       @items.each do |item|
         if item['class'] == 'Book'
           puts "id: #{item['id']} publisher: #{item['publisher']} published_date :#{item['published_date']} cover state :#{item['cover_state']}"
-        end 
-      end   
-    
+        end
+      end
+
     end
   end
 
@@ -113,7 +111,7 @@ class Catalog
     if music_albums.empty?
       puts 'No music_albums to display'
     else
-      @items.each  do |item|
+      @items.each do |item|
         puts "id: #{item['id']} on Spotify: #{item['on_spotify']}" if item['class'] == 'MusicAlbum'
       end
     end

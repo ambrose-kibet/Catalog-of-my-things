@@ -26,9 +26,9 @@ class Item
     genre.items << self unless genre.items.include?(self)
   end
 
-
   def can_be_archived?
     return false if @published_date.nil?
+
     Date.today.year - Date.parse(@published_date).year > 10
   end
 

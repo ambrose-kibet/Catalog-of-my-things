@@ -4,7 +4,6 @@ class App
   end
 
   def list_options
-   
     puts 'welcome to school catalog of my thinngs app!'
     puts
     20.times do
@@ -82,11 +81,7 @@ class App
   def handle_eight
     puts 'on spotify y/n '
     publisher = gets.chomp.downcase
-   if publisher=='y'
-    publisher=true
-   else
-    publisher=false
-   end
+    publisher = publisher == 'y'
     new_album = @catalog.create_music_album(publisher)
     puts 'Authors first name'
     first_name = gets.chomp
@@ -112,17 +107,13 @@ class App
 
   def handle_nine
     puts 'Is multiplayer y/n '
-      multiplayer = gets.chomp.downcase
-    if multiplayer=='y'
-      multiplayer=true
-    else
-      multiplayer=false
-    end
+    multiplayer = gets.chomp.downcase
+    multiplayer = multiplayer == 'y'
     puts 'Enter publish date \'yyyy-mm-dd\''
     published_date = gets.chomp
     puts 'Enter lastplayed at date \'yyyy-mm-dd\''
     last_played_at = gets.chomp
-    new_game = @catalog.create_game(multiplayer,published_date,last_played_at)
+    new_game = @catalog.create_game(multiplayer, published_date, last_played_at)
     puts 'Authors first name'
     first_name = gets.chomp
     puts 'Authors last name'
@@ -151,7 +142,7 @@ class App
     end
     puts
     puts 'Thank you for using the App!'
-   
+
     20.times do
       print '--'
     end
