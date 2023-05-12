@@ -1,4 +1,4 @@
-require './music/music'
+require_relative '../classes/music'
 
 describe 'MusicAlbum' do
   before(:all) do

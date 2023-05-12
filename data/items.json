@@ -1,0 +1,27 @@
+[
+  {
+    "class": "Game",
+    "object_id": 60,
+    "id": 530,
+    "multiplayer": true,
+    "publish_date": null,
+    "last_played_at": "2022-4-7",
+    "genre": "#<Genre:0x000002ee6319eae8>",
+    "author": "#<Author:0x000002ee6319ecc8>",
+    "label": "#<Label:0x000002ee6319e890>",
+    "archived": false
+  }
+][
+  {
+    "class": "Game",
+    "object_id": 60,
+    "id": 457,
+    "multiplayer": false,
+    "publish_date": null,
+    "last_played_at": "2023-6-9",
+    "genre": "#<Genre:0x000001f926185cd8>",
+    "author": "#<Author:0x000001f926185eb8>",
+    "label": "#<Label:0x000001f926185a80>",
+    "archived": false
+  }
+]

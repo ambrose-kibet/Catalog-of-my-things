@@ -1,0 +1,23 @@
+[
+  {
+    "class": "Label",
+    "object_id": 100,
+    "id": 101,
+    "title": "re",
+    "color": "black",
+    "items": [
+      "#<Game:0x000002ee6319ef70>"
+    ]
+  }
+][
+  {
+    "class": "Label",
+    "object_id": 100,
+    "id": 930,
+    "title": "bout",
+    "color": "pink",
+    "items": [
+      "#<Game:0x000001f926186160>"
+    ]
+  }
+]

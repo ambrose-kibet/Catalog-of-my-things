@@ -13,4 +13,13 @@ class Author
     item.author = self
     @items << item unless @items.include?(item)
   end
+
+  def to_h
+    { class: self.class.name,
+      object_id: object_id,
+      id: @id,
+      first_name: @first_name,
+      last_name: @last_name,
+      items: @items }
+  end
 end

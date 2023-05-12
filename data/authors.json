@@ -1,0 +1,23 @@
+[
+  {
+    "class": "Author",
+    "object_id": 120,
+    "id": 855,
+    "first_name": "kkk",
+    "last_name": "ghghg",
+    "items": [
+      "#<Game:0x000002ee6319ef70>"
+    ]
+  }
+][
+  {
+    "class": "Author",
+    "object_id": 120,
+    "id": 122,
+    "first_name": "versati",
+    "last_name": "tommy",
+    "items": [
+      "#<Game:0x000001f926186160>"
+    ]
+  }
+]

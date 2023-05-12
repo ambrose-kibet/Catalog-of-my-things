@@ -1,0 +1,30 @@
+[
+  {
+    "class": "Genre",
+    "object_id": 80,
+    "id": 975,
+    "name": "first shooter",
+    "items": [
+      "#<Game:0x000002ee6319ef70>"
+    ]
+  }
+][
+  {
+    "class": "Genre",
+    "object_id": 80,
+    "id": 975,
+    "name": "first shooter",
+    "items": [
+      "#<Game:0x000002ee6319ef70>"
+    ]
+  },
+  {
+    "class": "Genre",
+    "object_id": 80,
+    "id": 69,
+    "name": "adventure",
+    "items": [
+      "#<Game:0x000001f926186160>"
+    ]
+  }
+]

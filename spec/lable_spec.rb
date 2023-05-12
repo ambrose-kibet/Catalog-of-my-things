@@ -1,6 +1,5 @@
 require_relative '../classes/lable'
 require_relative '../classes/book'
-require_relative '../item'
 
 describe Label do
   before :each do
