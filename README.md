@@ -124,9 +124,9 @@ To run tests, run the following command:
 
 👤 **Ambrose Kibet**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@ambrose-kibet](https://github.com/ambrose-kibet)
+- Twitter: [@ambrose_kibet](https://twitter.com/ambrose_kibet)
+- LinkedIn: [Ambrose kibet](https://linkedin.com/in/ambrose-kibet)
 
 👤 **Wullah Jonas Nuta**
 
