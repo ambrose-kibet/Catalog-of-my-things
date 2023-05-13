@@ -1,0 +1,62 @@
+[
+  {
+    "class": "Label",
+    "object_id": 100,
+    "id": 560,
+    "title": "new",
+    "color": "red",
+    "items": [
+      "#<Game:0x0000020031dca450>"
+    ]
+  },
+  {
+    "class": "Label",
+    "object_id": 180,
+    "id": 688,
+    "title": "can",
+    "color": "green",
+    "items": [
+      "#<Book:0x0000020031e11a08>"
+    ]
+  },
+  {
+    "class": "Label",
+    "object_id": 260,
+    "id": 332,
+    "title": "dsdsd",
+    "color": "sdsds",
+    "items": [
+      "#<Book:0x0000020031e1ab08>"
+    ]
+  },
+  {
+    "class": "Label",
+    "object_id": 100,
+    "id": 16,
+    "title": "Gift",
+    "color": "blue",
+    "items": [
+      "#<MusicAlbum:0x00007fc7bb799ca0>"
+    ]
+  },
+  {
+    "class": "Label",
+    "object_id": 180,
+    "id": 821,
+    "title": "new",
+    "color": "black",
+    "items": [
+      "#<Game:0x00007fc7bb89c120>"
+    ]
+  },
+  {
+    "class": "Label",
+    "object_id": 260,
+    "id": 536,
+    "title": "gift",
+    "color": "red",
+    "items": [
+      "#<Book:0x00007fc7bb89ba40>"
+    ]
+  }
+]
