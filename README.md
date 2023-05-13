@@ -134,11 +134,11 @@ To run tests, run the following command:
 - Twitter: [@jonaswullah](https://twitter.com/jonaswullah)
 - LinkedIn: [jonas-wullah](https://linkedin.com/in/jonas-wullah)
 
-👤 **Yemisirach**
+👤 **Yemisirach Tamirat**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@yemisrach](https://github.com/Yemisirach)
+- Twitter: [@Yemisirach](https://twitter.com/tamiratyemsrach)
+- LinkedIn: [@Yemisirach](https://www.linkedin.com/in/yemisirach)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
