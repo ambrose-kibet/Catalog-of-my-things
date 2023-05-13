@@ -32,5 +32,39 @@
     "author": "#<Author:0x0000020031e1a9a0>",
     "label": "#<Label:0x0000020031e1a720>",
     "archived": false
+  },
+  {
+    "class": "MusicAlbum",
+    "object_id": 60,
+    "id": 281,
+    "on_spotify": true,
+    "publish_date": null,
+    "genre": "#<Genre:0x00007fc7bb82da68>",
+    "author": "#<Author:0x00007fc7bb799ac0>",
+    "label": "#<Label:0x00007fc7bb7997a0>",
+    "archived": false
+  },
+  {
+    "class": "Game",
+    "object_id": 140,
+    "id": 95,
+    "multiplayer": true,
+    "publish_date": null,
+    "last_played_at": "2022-4-21",
+    "genre": "#<Genre:0x00007fc7bb8285e0>",
+    "author": "#<Author:0x00007fc7bb7977c0>",
+    "label": "#<Label:0x00007fc7bb797630>",
+    "archived": false
+  },
+  {
+    "class": "Book",
+    "object_id": 220,
+    "id": 747,
+    "publisher": "dyd",
+    "cover_state": "good",
+    "genre": "#<Genre:0x00007fc7bb821bf0>",
+    "author": "#<Author:0x00007fc7bb794ed0>",
+    "label": "#<Label:0x00007fc7bb794ca0>",
+    "archived": false
   }
 ]

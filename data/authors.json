@@ -28,5 +28,35 @@
     "items": [
       "#<Book:0x0000020031e1ab08>"
     ]
+  },
+  {
+    "class": "Author",
+    "object_id": 120,
+    "id": 796,
+    "first_name": "Jake",
+    "last_name": "Copper",
+    "items": [
+      "#<MusicAlbum:0x00007fc7bb799ca0>"
+    ]
+  },
+  {
+    "class": "Author",
+    "object_id": 200,
+    "id": 497,
+    "first_name": "tom",
+    "last_name": "clancy",
+    "items": [
+      "#<Game:0x00007fc7bb89c120>"
+    ]
+  },
+  {
+    "class": "Author",
+    "object_id": 280,
+    "id": 422,
+    "first_name": "dambisasa",
+    "last_name": "mayo",
+    "items": [
+      "#<Book:0x00007fc7bb89ba40>"
+    ]
   }
 ]
